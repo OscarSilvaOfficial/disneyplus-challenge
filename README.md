@@ -6,4 +6,4 @@
 
 ### High level system architecture
 
-[High level system architecture](./high%20level%20diagram.drawio.png)
+![High level system architecture](./high%20level%20diagram.drawio.png)
