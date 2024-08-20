@@ -1,9 +1,11 @@
+from typing import List
+
 class Serie:
-    def __init__(self, name: str, description: str, duration: int, type: str) -> None:
+    def __init__(self, name: str, description: str, duration: int, categories: List[str]) -> None:
       self.__name = name
       self.__description = description
       self.__duration = duration
-      self.__type = type
+      self.__categories = categories
 
     @property
     def name(self):
@@ -18,5 +20,5 @@ class Serie:
       return self.__duration
 
     @property
-    def type(self):
-      return self.__type
+    def categories(self):
+      return self.__categories
