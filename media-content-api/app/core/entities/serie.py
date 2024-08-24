@@ -1,7 +1,5 @@
-from typing import List
-
 class Serie:
-  def __init__(self, name: str, description: str, duration: int, categories: List[str]) -> None:
+  def __init__(self, name: str, description: str, duration: int, categories: list[str]) -> None:
     self.__name = name
     self.__description = description
     self.__duration = duration

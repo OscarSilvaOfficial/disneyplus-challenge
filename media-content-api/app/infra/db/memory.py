@@ -1,4 +1,3 @@
-from typing import List
 from app.adapters import db
 from uuid import uuid4
 
@@ -9,7 +8,7 @@ class MissingFieldException(Exception):
 class MemoryDB(db.DB):
   def __init__(self, data=[]) -> None:
     super().__init__()
-    self.__data: List[dict] = data
+    self.__data: list[dict] = data
 
   def query(self, query: str):
     return self.__data
