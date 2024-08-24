@@ -1,4 +1,4 @@
-from .infra.controllers import series as series_controller
+from .infra.controllers.series import entrypoint as series_controller
 
 from fastapi import FastAPI
 
